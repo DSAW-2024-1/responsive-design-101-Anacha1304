@@ -1,6 +1,24 @@
-# Taller de Desarrollo Web: Página de Recetas
+# Solución de taller responsivo
 
-![Preview del diseño](./design/desktop-preview.jpg)
+# MAC
+<img src="./assets/images/MAC.png" alt="Página web distribuida para MAC">
+
+# IPHONE XR
+<img src="./assets/images/IPHONE XR.png" alt="Página web distribuida para IPHONE XR">
+
+# IPAD PRO
+<img src="./assets/images/IPAD PRO.png" alt="Página web distribuida para IPAD PRO">
+
+# IPAD MINI
+<img src="./assets/images/IPAD MINI.png" alt="Página web distribuida para IPAD MINI">
+
+# DISTRIBUIDAS CON MEDIDAS EXACTAS 
+<img src="./assets/images/DIMENSIÓN 1.png" alt="320px * 480px">
+
+<img src="./assets/images/DIMENSION 2.png" alt="768px * 1024px">
+
+<img src="./assets/images/DIMENSION 3.png" alt="+1024px">
+
 
 
 Bienvenido al taller de desarrollo web donde aprenderemos a crear y estilizar una página sencilla de recetas. Este taller se divide en dos partes:
