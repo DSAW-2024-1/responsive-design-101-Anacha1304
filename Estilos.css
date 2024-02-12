@@ -20,11 +20,11 @@
 /*Selector más general después del universal que le da las propiedades y valores del fondo que va atrás del todo*/
 body{
     background-color: hsl(30, 54%, 90%);
-    width: 100vw;
-    height: 120%;
+    min-height: 100vh;
 
     display: flex;
     justify-content: center;
+
 
 }
 
@@ -33,13 +33,18 @@ body{
 .image img{
     width: 100%;
     height: 15rem;  
-    border-radius: 1rem;  
-    animation: move 3s linear ;
+    border-radius: 1rem;
 }
 
+/*Selector con pseudoclase para que cuando el cursor se pase por encima la imagen tenga una animación*/
+.image img:hover{
+    animation: move 3s linear ;
+
+}
 /*Selector de clase de la clase main que es donde se va a encontrar absolutamente tod la información de la página*/
 .main {
     width: 45%;
+    max-width: 800px;
     background-color: hsl(0, 0%, 100%);
     padding: 2.5rem;
     border-radius: 30px;
@@ -47,6 +52,9 @@ body{
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
+
+    overflow: auto;
+   
 }
 
 /*Selector del titulo*/
@@ -58,6 +66,11 @@ h1{
 h2{
     color: brown;
     font-family: 'Young Serif';
+    
+}
+/*Selector con pesudoclase que permite que los titulos con h2 tengan una contracción caundo el cursos se le pase por encima*/
+h2:hover{
+    animation: contraction 1s ease;
 }
 
 /*Selector de la primera clase, le da sus atributos*/
@@ -196,6 +209,22 @@ span {
     100%{
        
         transform: scaleZ(-2%)
+    }
+    
+}
+
+/*Animación para que los titulos con h2 tengan una nimación cuando pase el cursor por encima*/
+@keyframes contraction {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(0.5);
+    }
+
+    100% {
+        transform: scale(1);
     }
     
 }
